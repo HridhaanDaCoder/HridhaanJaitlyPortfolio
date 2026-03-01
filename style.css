@@ -1,9 +1,40 @@
 body {
   margin: 0;
   overflow: hidden;
-  font-family: sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   background-color: #111;
 }
+
 canvas {
   display: block;
+}
+
+/* Overlay text/buttons */
+.portfolio-ui {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  z-index: 10;
+}
+
+.portfolio-ui h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.portfolio-ui button {
+  display: block;
+  margin: 5px 0;
+  padding: 8px 12px;
+  background-color: #00ff00;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.portfolio-ui button:hover {
+  background-color: #00cc00;
 }
