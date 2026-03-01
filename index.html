@@ -7,11 +7,20 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Three.js Canvas -->
   <canvas id="three-canvas"></canvas>
+
+  <!-- Overlay HTML for Portfolio UI -->
+  <div class="portfolio-ui">
+    <h1>My Portfolio</h1>
+    <button onclick="window.open('https://github.com/username/project1')">Project 1</button>
+    <button onclick="window.open('https://github.com/username/project2')">Project 2</button>
+  </div>
 
   <!-- Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.158.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.158.0/examples/js/loaders/GLTFLoader.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
 
   <!-- Your 3D script -->
